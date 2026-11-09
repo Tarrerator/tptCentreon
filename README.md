@@ -48,7 +48,7 @@ Get-tptCentreonStatus
 
 ## Configuración
 
-Las credenciales deben ser proporcionadas al llamar a `Connect-tptCentreon`. El módulo guarda el token de autenticación y URL base en el estado del módulo ($script:CentreonToken, $script:CentreonUrl) para reutilizar en llamadas posteriores.
+Las credenciales deben ser proporcionadas al llamar a `Connect-tptCentreon`. El módulo guarda el token de autenticación y URL base en el estado del módulo ($script:CentreonToken, $script:CentreonUrl) para reutilizar en llamadas posteriores. En el futuro, se añadirá soporte para el fichero de configuración YAML unificado `~/.tpt/tpt_config.yaml` que contiene las plataformas declaradas para tptCentreon (bloque 'tptCentreon').
 
 ## Licencia
 
